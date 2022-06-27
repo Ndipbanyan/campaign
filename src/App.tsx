@@ -12,6 +12,12 @@ import rightCoin from './assets/images/coin right.png'
 function App() {
 	return (
 		<div id='container'>
+			<div>
+				<img src={whiteStar} alt='' className='firefly' />
+				<img src={whiteStar} alt='' className='firefly1' />
+				<img src={whiteStar} alt='' className='firefly3' />
+				<img src={whiteStar} alt='' className='firefly4' />
+			</div>
 			<div id='greenstar'>
 				<img src={greenStar} alt='' />
 			</div>
@@ -91,10 +97,6 @@ function App() {
 					<div id='rightcoin'>
 						<img src={rightCoin} alt='' />
 					</div>
-				</div>
-
-				<div className='circle-container'>
-					<div className='circle'></div>
 				</div>
 			</footer>
 		</div>
