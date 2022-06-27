@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/campaign/static/css/main.698488e8.css",
+    "main.css": "/campaign/static/css/main.483ab4ee.css",
     "main.js": "/campaign/static/js/main.0225e07f.js",
     "static/media/background.png": "/campaign/static/media/background.25dd818003d8abab43b0.png",
     "static/media/coin left.png": "/campaign/static/media/coin left.3933608c9de80cd01e5a.png",
@@ -10,11 +10,11 @@
     "static/media/Vectorgreen.svg": "/campaign/static/media/Vectorgreen.fdad1183cecf2e21538093f9db86ff85.svg",
     "static/media/calendar.svg": "/campaign/static/media/calendar.c309b5667a0494ce1dda6f231a635eee.svg",
     "static/media/greater.svg": "/campaign/static/media/greater.a90853f50a9f010153820a7c80ab8b66.svg",
-    "main.698488e8.css.map": "/campaign/static/css/main.698488e8.css.map",
+    "main.483ab4ee.css.map": "/campaign/static/css/main.483ab4ee.css.map",
     "main.0225e07f.js.map": "/campaign/static/js/main.0225e07f.js.map"
   },
   "entrypoints": [
-    "static/css/main.698488e8.css",
+    "static/css/main.483ab4ee.css",
     "static/js/main.0225e07f.js"
   ]
 }
