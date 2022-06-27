@@ -21,7 +21,7 @@ body {
 	display: grid;
 	grid-template-rows: auto auto 1fr;
 	z-index: 0;
-	padding: 2rem 1rem;
+	padding: 1rem;
 	overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ button span {
 /* footer styling */
 footer {
 	width: 100%;
-
+	height: 100vh;
 	grid-row: 2/4;
 	grid-column: 1/2;
 	animation: fadeInCoin 1s ease;
@@ -213,7 +213,7 @@ footer {
 	width: 100%;
 	position: absolute;
 
-	bottom: 5%;
+	bottom: 7%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -228,7 +228,7 @@ footer {
 #leftcoin {
 	width: 70%;
 	position: absolute;
-	bottom: 8%;
+	bottom: 15%;
 	animation: float 2s ease-in-out infinite;
 }
 #leftcoin img {
@@ -238,7 +238,7 @@ footer {
 #rightcoin {
 	width: 100%;
 	position: absolute;
-	bottom: 10%;
+	bottom: 12%;
 	right: -80%;
 	animation: float 2.3s ease-in-out infinite;
 }
@@ -323,7 +323,7 @@ footer {
 		mask: repeating-conic-gradient(#000 0% 10%, transparent 0% 15%);
 	}
 	#coinpot {
-		bottom: 3%;
+		bottom: 8%;
 	}
 	#coinpot img {
 		width: 30%;
