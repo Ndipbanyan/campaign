@@ -213,7 +213,7 @@ footer {
 	width: 100%;
 	position: absolute;
 
-	bottom: 7%;
+	bottom: 8%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -228,7 +228,7 @@ footer {
 #leftcoin {
 	width: 70%;
 	position: absolute;
-	bottom: 15%;
+	bottom: 18%;
 	animation: float 2s ease-in-out infinite;
 }
 #leftcoin img {
@@ -238,7 +238,7 @@ footer {
 #rightcoin {
 	width: 100%;
 	position: absolute;
-	bottom: 12%;
+	bottom: 15%;
 	right: -80%;
 	animation: float 2.3s ease-in-out infinite;
 }
