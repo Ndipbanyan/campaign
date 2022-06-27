@@ -104,7 +104,6 @@ h1 {
 #whitestar2 {
 	display: none;
 }
-
 #mobile-stars {
 	position: absolute;
 	height: 100%;
@@ -117,7 +116,7 @@ h1 {
 	border-radius: 8px;
 	padding: 1rem;
 	font-size: 14px;
-	animation: fadeInBottomFooter 1.5s ease;
+	animation: fadeInBottomFooter 1.5s ease 1.5s;
 	animation-fill-mode: both;
 }
 
@@ -157,7 +156,8 @@ button {
 	margin-top: 1rem;
 	border: none;
 	padding: 0.5rem 1rem;
-	animation: fadeInBottom 1.5s;
+	animation: fadeInBottom 1.5s 1.5s;
+	animation-fill-mode: both;
 }
 button span {
 	display: flex;
@@ -222,7 +222,7 @@ footer {
 }
 
 #coinpot img {
-	width: 80%;
+	width: 100%;
 	z-index: 2;
 }
 
