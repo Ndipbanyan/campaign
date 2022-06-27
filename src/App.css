@@ -99,7 +99,7 @@ h1 {
 }
 #greenstar,
 #yellowstar1,
-#yellowstar1,
+#yellowstar2,
 #whitestar1,
 #whitestar2 {
 	display: none;
@@ -183,7 +183,6 @@ footer {
 	height: 100%;
 	position: absolute;
 	bottom: -50%;
-	overflow: hidden;
 }
 
 .rays {
@@ -214,7 +213,7 @@ footer {
 	width: 100%;
 	position: absolute;
 
-	bottom: -2%;
+	bottom: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -229,7 +228,7 @@ footer {
 #leftcoin {
 	width: 70%;
 	position: absolute;
-	bottom: 5%;
+	bottom: 8%;
 	animation: float 2s ease-in-out infinite;
 }
 #leftcoin img {
@@ -239,7 +238,7 @@ footer {
 #rightcoin {
 	width: 100%;
 	position: absolute;
-	bottom: 3%;
+	bottom: 10%;
 	right: -80%;
 	animation: float 2.3s ease-in-out infinite;
 }
@@ -248,9 +247,6 @@ footer {
 }
 
 @media (min-width: 600px) {
-	#coinpot {
-		bottom: -3%;
-	}
 	#coinpot img {
 		width: 50%;
 	}
